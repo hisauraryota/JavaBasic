@@ -3,7 +3,7 @@ package practice02;
  * PTra02_06.java
  *   作成	LIKEIT	2017
  *------------------------------------------------------------
- * Copyright(c) Rhizome Inc. All Rights Reserved.
+ * Copyright(c) Rhizome Inc. All Rights Reseyrved.
  */
 
 public class PTra02_06 {
@@ -16,6 +16,13 @@ public class PTra02_06 {
 
 		// ★ 変数 x, y の値をリテラルの数字を使わずに入れ替えてください
 		// ※プログラムは何行書いても良いです
+		int p;
+		p = y;
+		y = x;
+		x = p;
+
+
+
 
 
 		// ここから下は修正しないでください
