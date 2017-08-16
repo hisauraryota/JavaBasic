@@ -28,6 +28,7 @@ public class PTra04_05 {
 			// 文字列を数字に変換して、変数numに代入します
 			// ※ コマンドプロンプトで入力された値が、数字ではなかった場合はプログラムがエラーになり、プログラムが終了します
 			int myHand = Integer.parseInt(line);
+			System.out.println("私は"+myHand+"を出しました");
 
 			System.out.print("相手の手は・・・・・");
 
@@ -57,9 +58,22 @@ public class PTra04_05 {
 			} else {
 				System.out.println("パー！！");
 
-
-
 			}
+
+			int result;
+			result = myHand - cpuHand;
+
+			if(result == -1 || result == 2) {
+				System.out.println("あなたの勝ちです");
+				winFlg =true;
+			}
+			else if(result == 0) {
+				System.out.println("あいこです");
+			}
+			else {
+				System.out.println("負け");
+			}
+
 
 		}
 	}
