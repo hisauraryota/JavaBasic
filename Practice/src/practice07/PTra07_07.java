@@ -25,9 +25,6 @@ public class PTra07_07 {
 	        	sum +=array[i][j];
 	        	count ++;
 
-
-
-
 	        }
 	    }
 		System.out.println((double)sum/count);
