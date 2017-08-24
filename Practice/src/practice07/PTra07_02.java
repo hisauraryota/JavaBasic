@@ -16,11 +16,10 @@ public class PTra07_02 {
 		for(int i=0; i<1000; i++) {
 			array[i] = i+1;
 		}
+
+		// ★ 変数arrayに格納されている値を前から順番に全て表示してください
 		for(int value:array) {
 			System.out.println(value);
 		}
-
-		// ★ 変数arrayに格納されている値を前から順番に全て表示してください
-
 	}
 }
