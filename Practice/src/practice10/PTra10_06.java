@@ -48,8 +48,8 @@ public class PTra10_06 {
 			cars[0] = car1;
 			cars[1] = car2;
 			cars[2] = car3;
-			
-			
+
+
 			while (true) {
 				count[i]++;
 				int kyori = cars[i].run();
@@ -62,7 +62,7 @@ public class PTra10_06 {
 				goukei[i] += kyori;
 
 				if (goukei[i] >= distance) {
-					System.out.println("目的地まで"+ count[i] +"時間かかりました。残りのガソリンは"+cars[i].gasoline+"リットルです");
+					//System.out.println("目的地まで"+ count[i] +"時間かかりました。残りのガソリンは"+cars[i].gasoline+"リットルです");
 					break;
 				}
 
