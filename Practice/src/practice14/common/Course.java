@@ -16,10 +16,13 @@ public interface Course {
 	 */
 	String getCourseName();
 
+
+
 	/**
 	 * コースの単元を取得します
 	 * 例）プログラミングの書き方、式と演算子　など
 	 * @return
 	 */
 	String[] getCourseUnit();
+
 }

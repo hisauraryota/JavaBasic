@@ -6,6 +6,8 @@
  */
 package practice14.ptra14;
 
+import practice14.common.DBCourse;
+
 public class PTra14_02 {
 
 	/*
@@ -20,4 +22,17 @@ public class PTra14_02 {
 	 * 		SQL応用
 	 */
 
+	public static void main(String[] args) {
+
+		DBCourse DBCourse = new DBCourse();
+		System.out.println(DBCourse.getCourseName());
+
+		String[] list = DBCourse.getCourseUnit();
+
+		for (int i = 0; i < list.length; i++) {
+			System.out.println(list[i]);
+
+		}
+
+	}
 }
