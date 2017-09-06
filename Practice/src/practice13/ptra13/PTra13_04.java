@@ -34,15 +34,11 @@ public class PTra13_04 {
 
 		while(true) {
 
-			Hero.damage(Slime.attack());
-
-			Slime.damage(Hero.attack());
-
-			if(Slime.damage(Hero.attack()) == true) {
+			if(Slime.damage(Hero.attack())) {
 				System.out.println("勇者はスライムとの戦闘に勝利した");
 				break;
 
-			}else if(Hero.damage(Slime.attack()) == true) {
+			}else if(Hero.damage(Slime.attack()) ) {
 				System.out.println("スライムは勇者との戦闘に勝利した");
 				break;
 				}

@@ -4,7 +4,7 @@ public class Item{
 
 	private String name;
 
-	private int additionalDamage;
+	private static int additionalDamage;
 
 	public String getname() {
 		return name;
@@ -14,17 +14,17 @@ public class Item{
 		this.name = name;
 	}
 
-	public int getadditonalDamage() {
+	public static  int getadditonalDamage() {
 		return additionalDamage;
 	}
 
 	public void setadditionalDamage(int additionalDamage) {
-		this.additionalDamage = additionalDamage;
+		Item.additionalDamage = additionalDamage;
 	}
 
 	public Item(String name, int additionalDamage) {
 		this.name = name;
-		this.additionalDamage = additionalDamage;
+		Item.additionalDamage = additionalDamage;
 	}
 
 }
