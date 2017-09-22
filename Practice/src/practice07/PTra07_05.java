@@ -24,7 +24,7 @@ public class PTra07_05 {
 			array[i]=i+1;
 
 			// ★ 0～100000の中からランダムで値を取得して、配列arrayのi番目に代入してください
-			int index = new java.util.Random().nextInt(100000);
+			int index = new java.util.Random().nextInt(100001);
 			array[i]=index;
 			// ★ 配列arrayのi番目の値を出力してください
 			System.out.println(array[i]);

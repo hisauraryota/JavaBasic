@@ -20,24 +20,23 @@ public class PTra16_02 {
 
 		// ★ 上記基本型を、それぞれのラッパークラスに代入してください
 
-		Boolean B = new Boolean(b);
-		Byte By = new Byte(by);
-		Short S = new Short(s);
-		Character C = new Character(c);
-		Integer I = new Integer(i);
-		Long L = new Long(l);
-		Float F = new Float(f);
-		Double D = new Double(d);
+		Boolean bb = b;
+		Byte bby = by;
+		Short ss = s;
+		Character cc = c;
+		Integer ii = i;
+		Long ll = l;
+		Float ff = f;
+		Double dd = d;
 
-		System.out.println(B);
-		System.out.println(By);
-		System.out.println(S);
-		System.out.println(C);
-		System.out.println(I);
-		System.out.println(L);
-		System.out.println(F);
-		System.out.println(D);
-
+		System.out.println(bb);
+		System.out.println(bby);
+		System.out.println(ss);
+		System.out.println(cc);
+		System.out.println(ii);
+		System.out.println(ll);
+		System.out.println(ff);
+		System.out.println(dd);
 
 	}
 }
